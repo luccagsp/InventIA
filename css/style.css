@@ -1,75 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    height: 24vh;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-}
-.container .title{
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    background: linear-gradient(transparent, #ffd864);
-}
-
-.container .title img{
-    height: 80%;
-}
-.container .title p{
-    font-size: 2.5em;
-    color: 00010E;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-}
-.divisor{
-    width: 100%;
-    height: 2%;
-    background-color: #EFB810;
-}
-.nav-var{
-    height: 27%;
-}
-nav{
+html, body{
     height: 100%;
+    width: auto;
+}
+.bg-custom1{
+    background-color: #111A13;
 }
 
-.divisor-bot{
-    height: 4%;
+section{
+    
     width: 100%;
-    background: linear-gradient(90deg, transparent, #EFB810, transparent);
-}
-
-
-
-.nav-var nav ul{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
     height: 100%;
-    gap: 30%;
-}
+    background-color: rebeccapurple;
 
-.nav-var nav ul li a{
-    text-decoration: none;
-    font-family: 'Mulish', sans-serif;
-    font-size: 1.6em;
-}
-
-.producto{
-    border: 3px solid #EFB810;
-    border-radius: 50px;
-    width: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
