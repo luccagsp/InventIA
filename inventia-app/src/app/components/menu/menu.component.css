@@ -1,0 +1,35 @@
+.modos-sub{
+    font-weight: 600    !important;
+    font-size: 5rem;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+title-custom{
+    animation: shadow-on-off 1s ease-in-out infinite;
+}
+
+@keyframes shadow-on-off {
+	50% {
+		text-shadow: 10px 20px 30px blue;
+	}
+}
+
+.card-custom svg:hover{
+    background-color: red;
+}
+
+.titulo{
+    height: calc(100vh - 70px);
+}
+
+.bg-semi-dark{
+    background-color: #F5F7F6;
+}
+.bg-mr-dark{
+    background-color: #f4dedf;
+}
+
+.card-custom button{
+    border: none;
+    background-color: transparent;
+}
